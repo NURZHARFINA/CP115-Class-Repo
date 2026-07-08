@@ -4,9 +4,9 @@
         <attribute name="name" value="lab-03-2"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-07-08 11:57:29 AM"/>
+        <attribute name="saved" value="2026-07-08 12:22:49 PM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wODsxMTo0NjowMSBBTTsyNzM4"/>
-        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wODsxMTo1NzoyOSBBTTsyOzI4NTk="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNy0wODsxMjoyMjo0OSBQTTszOzI4NzA="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -15,7 +15,6 @@
             <input variable="NumOfNight"/>
             <declare name="totalPayment" type="Integer" array="False" size=""/>
             <declare name="price" type="Integer" array="False" size=""/>
-            <input variable="price"/>
             <assign variable="price" expression="250 * NumOfNight"/>
             <assign variable="totalPayment" expression="price + ( price * 0.15 )"/>
             <output expression="totalPayment" newline="True"/>
