@@ -1,0 +1,10 @@
+import math
+number = int(input("enter one number : "))
+square_root = math.sqrt(number)
+square = (number ** 2)
+cube = (number ** 3 )
+sine_value = math.sin(number)
+print(square_root)
+print(square)
+print(cube)
+print(sine_value)
