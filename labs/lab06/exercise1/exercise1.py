@@ -24,7 +24,7 @@ Total = subtotal + tax
 
 store ="==========RECEIPT==========\nItem\tprice\tqty\ttotal"
 print(store)
-print(f"{coffee_name}\t${coffee_price: .2f}\t{coffee_qty}\t${total_coffee:.2f}\n"  #hiiiii
+print(f"{coffee_name}\t${coffee_price: .2f}\t{coffee_qty}\t${total_coffee:.2f}\n"  #I LOVE COFFEE
       f"{muffin_name}\t${muffin_price: .2f}\t{muffin_qty}\t${total_muffin:.2f}\n"
       f"{water_name}\t${water_price: .2f}\t{water_qty}\t${total_water:.2f}\n")
 print("------------------------------")
