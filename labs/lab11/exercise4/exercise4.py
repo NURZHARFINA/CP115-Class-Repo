@@ -4,7 +4,7 @@ record_days = 0
 highest = 0 
 
 while sales != 0 :
-    count =+ 1 
+    count += 1 
 
     if sales > highest : 
         record_days += 1 
